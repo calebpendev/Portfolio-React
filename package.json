@@ -1,8 +1,8 @@
 {
-  "name": "Portfolio-React",
+  "name": "portfolio-react",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://calebpendev.github.io/Portfolio-React",
+  "homepage": "http://calebpendev.github.io/portfolio-react",
   "dependencies": {
     "@carbon/icons-react": "^10.37.0",
     "@carbon/themes": "^10.42.0",
