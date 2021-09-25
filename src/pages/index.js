@@ -9,16 +9,16 @@ const Pages = ({ user }) => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/Portfolio-React/">
+        <Route exact path="/">
           <Me user={user} />
         </Route>
-        <Route path="/Portfolio-React/projects">
+        <Route path="/projects">
           <Projects user={user} />
         </Route>
-        <Route path="/Portfolio-React/work">
+        <Route path="/work">
           <Work user={user} />
         </Route>
-        <Route path="/Portfolio-React/education">
+        <Route path="/education">
           <Education user={user} />
         </Route>
       </Switch>
